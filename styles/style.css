@@ -1,0 +1,24 @@
+.webix_el_button button {
+        border-radius: 6px;
+        height: 100%;
+        width: 100%;
+        cursor: pointer;
+        color: #fff;
+        font-size: 15px;
+        padding: auto 6px;
+        font-family: 'PT Sans',Tahoma;
+        border: 1px solid #3498db;
+        border-bottom: 1px solid #268fd5;
+    }
+    
+    .webixtype_base {
+        background: #3498db;
+        color: #fff;
+        font-size: 15px;
+        font-family: 'PT Sans',Tahoma;
+        outline: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    
