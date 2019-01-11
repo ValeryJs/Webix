@@ -1,5 +1,6 @@
 export const footer = {
 	view: "template",
-	template: "The software is provided by   All rights reserved (c).",
-	// src: "https://webix.com"
+	css: "footer",
+	height: 40,
+	template: "The software is provided by <a target='_blank' href='https://webix.com'>https://webix.com</a> All rights reserved (c)."
 }

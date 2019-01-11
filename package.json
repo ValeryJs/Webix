@@ -8,17 +8,9 @@
     "server": "node_modules/.bin/webpack-dev-server --config webpack.config.js",
     "start": "concurrently \"npm run build\" \"npm run server\""
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ValeryJs/PrcticeWebix.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ValeryJs/PrcticeWebix/issues"
-  },
-  "homepage": "https://github.com/ValeryJs/PrcticeWebix#readme",
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.2.2",
