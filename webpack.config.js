@@ -27,6 +27,10 @@ module.exports = {
     new HtmlWebpackPlugin({template: './index.html'}),
     new CopyWebpackPlugin([
       {
+          from: 'data/',
+          to: 'data/'
+      },
+      {
           from: 'lib/',
           to: 'lib/'
       },

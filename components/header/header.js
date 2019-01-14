@@ -3,9 +3,7 @@ export const header = {
 	css:"webix_header webix_dark",
 	cols:[	
 			{ view: "label", label: "My App" },
-			{ },
-			{ 
-				view: "button", 
+			{ view: "button", 
 				type: "icon",
 				width: 100,
 			  icon: "mdi mdi-account",
@@ -14,7 +12,6 @@ export const header = {
 				popup: "my_pop"
 		  }
 	],
-	// inputWidth:100
 };
 
 

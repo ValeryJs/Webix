@@ -1,26 +1,36 @@
-.webix_el_button button {
-        border-radius: 6px;
-        height: 100%;
-        width: 100%;
-        cursor: pointer;
-        color: #fff;
-        font-size: 15px;
-        padding: auto 6px;
-        font-family: 'PT Sans',Tahoma;
-        border: 1px solid #3498db;
-        border-bottom: 1px solid #268fd5;
-    }
-    
-    .webixtype_base {
-        background: #3498db;
-        color: #fff;
-        font-size: 15px;
-        font-family: 'PT Sans',Tahoma;
-        outline: 0;
-        padding: 0;
-        border: 0;
-    }
-
-    .footer {
-        text-align: center;
-    }
+.nav-view,
+.nav-column {
+     background: #f4f5f9;
+ }   
+ .nav-view .webix_list_item:hover,
+ .nav-view .webix_list_item.webix_selected  {
+    background: #edeff5;
+ }
+ .alert-success {
+    text-align: center;
+    color: #268a36;
+    background: transparent;
+ }
+.btn-remove-user,
+.btn-remove-film {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    min-width: 20px;
+    max-width: 35px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btn-remove-user:hover,
+.btn-remove-film:hover {
+    background: #f4f5f9;
+}
+.btn-remove-user {
+    float: right;
+}
+.footer {
+    position: relative;
+    text-align: center;
+}
