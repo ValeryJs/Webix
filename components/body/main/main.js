@@ -8,4 +8,5 @@ export const main = {
 		{ id: 3, rows: products },
 		{ id: 4, template: "Locations View" }
 	]
+	
 };

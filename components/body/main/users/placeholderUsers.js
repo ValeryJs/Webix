@@ -30,6 +30,15 @@ export const placeholderUsers =
 			click(){
 				$$("listUsers").sort("#name#", "desc", "string"); 
 			}
+		},
+		{ 
+			view: "button",
+			value: "Add new",
+			width: 150,
+			type: "form" ,
+			click(){
+				$$("listUsers").sort("#name#", "desc", "string"); 
+			}
 		}
 	]
 }

@@ -1,10 +1,14 @@
 export const chartUsers = {
 	view: "chart",
+	id: "chartUsers",
 	type: "bar",
 	radius: 0,
-  gradient: "falling",
-	value: "#age#",
-	label: "#age#",
-	url: "data/users.js",
-	barWidth: 30
-}
+	gradient: "falling",
+	xAxis:{
+    template:"#id#"
+  },
+	value: "#id#",
+	label: "#country#",
+	
+	barWidth: 30,
+}//End chart User
